@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data files (optional – if you don't want to upload CSV)
+raw_data.csv
+cleaned_data.csv
+
+# FastAPI / Uvicorn generated files
+*.db
+*.sqlite3
+
+# Build folders
+build/
+dist/
+*.egg-info/
